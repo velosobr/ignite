@@ -1,0 +1,23 @@
+{
+  "name": "finapi",
+  "version": "1.0.0",
+  "description": "An API that provides financial features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/velosobr/ignite/node/FINAPI"
+  },
+  "author": "velosobr",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
+}
