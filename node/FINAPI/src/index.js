@@ -29,8 +29,12 @@ function verifyIfExistsAccountCPF(req, res, next) {
  * id - uuid
  * statememnt - []
 */
+
+/**
+ * CRIAR CONTA
+ */
 app.post("/account", (req, res) => {
-   const { cpf, name, statement } = req.body;
+   const { cpf, name, balance, statement } = req.body;
    const costumersAlreadyExists = customers.some((customer) => customer.cpf === cpf)
 
    if (!costumersAlreadyExists) {
@@ -38,6 +42,7 @@ app.post("/account", (req, res) => {
          cpf,
          name,
          id: uuidv4(),
+         balance,
          statement
       });
       console.log(customers);
@@ -58,6 +63,9 @@ app.post("/account", (req, res) => {
 
 });
 
+/**
+ * EXTRATO
+ */
 app.get("/statement", verifyIfExistsAccountCPF, (req, res) => {
    const { customer } = req
 
@@ -67,7 +75,9 @@ app.get("/statement", verifyIfExistsAccountCPF, (req, res) => {
    })
 
 })
-
+/**
+ * DEPOSITO
+ */
 app.post("/deposit", verifyIfExistsAccountCPF, (req, res) => {
    const { description, amount } = req.body
 
@@ -81,8 +91,36 @@ app.post("/deposit", verifyIfExistsAccountCPF, (req, res) => {
    }
 
    customer.statement.push(statementOperation)
+   customer.balance += amount
 
-   return res.status(201).json({ "message: ": "Deposit done with success" })
+   return res.status(201).json({ "message: ": "Deposit done with success", "balance": customer.balance })
+})
+
+/**
+ * SAQUE
+ */
+app.post("/withdraw", verifyIfExistsAccountCPF, (req, res) => {
+   const { customer } = req
+   const { amount } = req.body
+
+   if (customer.balance < amount) {
+      return res.status(401).json({
+         error: "Insufficient funds"
+      })
+   }
+   customer.balance -= amount
+   const statementOperation = {
+      amount,
+      created_at: new Date(),
+      type: "debit",
+   }
+
+   customer.statement.push(statementOperation)
+
+
+   return res.status(200).json({
+      "user": customer.name, "statement": customer.statement, "balance": customer.balance
+   })
 })
 
 app.listen(3333);
