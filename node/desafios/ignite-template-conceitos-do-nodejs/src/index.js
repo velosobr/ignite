@@ -16,16 +16,16 @@ const users = [];
 function checksExistsUserAccount(request, response, next) {
   const { username } = request.headers
 
-  const user = users.find((user) => user.username === username)
+  const user = users.find(user => user.username === username)
 
   if (!user) {
-    return response.status(400).json({
-      error: 'Usuário já existe'
+    return response.status(404).json({
+      error: 'Usuário não existe - middleware message'
     })
   }
 
   request.user = user
-  return next
+  return next();
 }
 
 app.post('/users', (request, response) => {
@@ -51,27 +51,44 @@ app.post('/users', (request, response) => {
 });
 
 app.get('/todos', checksExistsUserAccount, (request, response) => {
-  const { username } = request.headers
+  const { user } = request
 
-  const user = users.some((user) => user.username === username)
 
-  return user.todos
+  return response.json(
+    user.todos
+  )
 });
 
 app.post('/todos', checksExistsUserAccount, (request, response) => {
-  // Complete aqui
+  const { user } = request
+  const { title, deadline } = request.body
+
+  const todo = {
+    id: uuidv4(), // precisa ser um uuid
+    title,
+    done: false,
+    deadline: new Date(deadline),
+    created_at: new Date()
+  }
+
+  user.todos.push(todo)
+
+  return response.status(201).json(todo)
+
+
+
 });
 
 app.put('/todos/:id', checksExistsUserAccount, (request, response) => {
-  // Complete aqui
+  const { user } = request
 });
 
 app.patch('/todos/:id/done', checksExistsUserAccount, (request, response) => {
-  // Complete aqui
+  const { user } = request
 });
 
 app.delete('/todos/:id', checksExistsUserAccount, (request, response) => {
-  // Complete aqui
+  const { user } = request
 });
 
 module.exports = app;
