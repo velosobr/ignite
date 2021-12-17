@@ -53,7 +53,6 @@ app.post('/users', (request, response) => {
 app.get('/todos', checksExistsUserAccount, (request, response) => {
   const { user } = request
 
-
   return response.json(
     user.todos
   )
@@ -74,21 +73,57 @@ app.post('/todos', checksExistsUserAccount, (request, response) => {
   user.todos.push(todo)
 
   return response.status(201).json(todo)
-
-
-
 });
 
 app.put('/todos/:id', checksExistsUserAccount, (request, response) => {
   const { user } = request
+  const { title, deadline } = request.body
+  const { id } = request.params
+
+  const todo = user.todos.find(todo => todo.id === id)
+
+  if (!todo) {
+    return response.status(404).json({
+      error: 'não foi possivel encontrar a tarefa'
+    })
+  }
+
+  todo.title = title
+  todo.deadline = new Date(deadline)
+
+  return response.status(201).json(todo)
+
 });
 
 app.patch('/todos/:id/done', checksExistsUserAccount, (request, response) => {
   const { user } = request
+  const { id } = request.params
+
+  const todo = user.todos.find(todo => todo.id === id)
+  if (!todo) {
+    return response.status(404).json({
+      error: 'não foi possivel encontrar a tarefa'
+    })
+  }
+  todo.done = true
+
+  return response.status(201).json(todo)
 });
 
 app.delete('/todos/:id', checksExistsUserAccount, (request, response) => {
   const { user } = request
+  const { id } = request.params
+
+  const todoIndex = user.todos.findIndex(todo => todo.id === id)
+  if (todoIndex === -1) {
+    return response.status(404).json({
+      error: 'não foi possivel encontrar a tarefa'
+    })
+  }
+
+  user.todos.splice(todoIndex, 1)
+  return response.status(204).json()
+
 });
 
 module.exports = app;
