@@ -23,7 +23,18 @@ function checksExistsUserAccount(request, response, next) {
 }
 
 function checksCreateTodosUserAvailability(request, response, next) {
-  // Complete aqui
+  const { user } = request;
+
+  const isFreePlan = user.pro == false
+  const isProPlan = user.pro == true
+  const todoLenth = user.todos.length < 10
+  if (isFreePlan && todoLenth) {
+    return next()
+  } else if (isProPlan) {
+    return next()
+  } else {
+    return response.status(403)
+  }
 }
 
 function checksTodoExists(request, response, next) {
@@ -31,7 +42,7 @@ function checksTodoExists(request, response, next) {
 }
 
 function findUserById(request, response, next) {
-  // Complete aqui
+
 }
 
 app.post('/users', (request, response) => {
