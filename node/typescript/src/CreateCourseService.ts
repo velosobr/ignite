@@ -5,7 +5,9 @@
  */
 
 interface Course {
-   name: String, duration: number, educator: string
+   name: String,
+   duration?: number,
+   educator: string
 }
 class CreateCourseService {
    execute({ name, duration, educator }: Course) {
