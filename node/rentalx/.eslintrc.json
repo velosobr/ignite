@@ -1,8 +1,8 @@
 {
     "env": {
-        "node": true,
         "es2020": true,
-        "jest": true,
+        "node": true,
+        "jest": true
     },
     "extends": [
         "airbnb-base",
@@ -12,7 +12,7 @@
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaVersion": 13,
+        "ecmaVersion": 12,
         "sourceType": "module"
     },
     "plugins": [
@@ -22,8 +22,8 @@
     ],
     "rules": {
         "camelcase": "off",
-        "import/no-unresolved": "error",
         "prettier/prettier": "error",
+        "import/no-unresolved": "error",
         "@typescript-eslint/naming-convention": [
             "error",
             {
