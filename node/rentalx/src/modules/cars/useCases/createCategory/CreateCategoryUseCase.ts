@@ -11,7 +11,7 @@ interface IRequest {
  * [x] - Alterar o retorno de erro
  * [x] - Acessar o repositório
  */
-class CreateCategoryService {
+class CreateCategoryUseCase {
   constructor(private categoriesRepository: ICategoriesRepository) {}
 
   execute({ description, name }: IRequest) {
@@ -27,4 +27,4 @@ class CreateCategoryService {
   }
 }
 
-export { CreateCategoryService };
+export { CreateCategoryUseCase };

@@ -10,6 +10,10 @@ class SpecificationRepository implements ISpecificationRepository {
   constructor() {
     this.specifications = [];
   }
+  findByName(name: string): Specification {
+    const spec = this.specifications.find((spec) => spec.name === name);
+    return spec;
+  }
   create({ description, name }: ICreateSpecificationDTO): void {
     const spec = new Specification();
 
