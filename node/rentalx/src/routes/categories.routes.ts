@@ -10,12 +10,7 @@ const categoriesRepository = new CategoriesRepository();
 const categories: Category[] = [];
 
 categoriesRoutes.post("/", (req, res) => {
-  const { name, description } = req.body;
-
-  const createCategoryService = new CreateCategoryUseCase(categoriesRepository);
-
-  createCategoryService.execute({ name, description });
-  return res.status(201).send();
+  
 });
 
 categoriesRoutes.get("/", (req, res) => {
