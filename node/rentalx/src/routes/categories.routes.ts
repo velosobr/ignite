@@ -7,8 +7,6 @@ import { createCategoryController } from "../modules/cars/useCases/createCategor
 const categoriesRoutes = Router();
 const categoriesRepository = new CategoriesRepository();
 
-const categories: Category[] = [];
-
 categoriesRoutes.post("/", (req, res) => {
   return createCategoryController.handle(req, res);
 });
