@@ -5,6 +5,7 @@ import {
 } from "./ICategoriesRepository";
 
 // data transfer object
+// Singleton
 
 class CategoriesRepository implements ICategoriesRepository {
   private categories: Category[];
