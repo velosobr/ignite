@@ -1,7 +1,13 @@
 # ignite
 A training repo to keep my Node and Flutter Studies
+# Node
 
-## Node
+
+
+## First Project - Rentalx
+
+A System that intends to control rent cars
+
 <b>SOLID</b>
 S => SRP - Single Responsability Principle (Princípio da Responsabilidade Única)
 O => OCP - Open-CLosed Principle (Princípio aberto/fechado)
