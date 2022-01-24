@@ -13,3 +13,6 @@ S => SRP - Single Responsability Principle (Princípio da Responsabilidade Únic
 O => OCP - Open-CLosed Principle (Princípio aberto/fechado)
 L => LSP - Liskov Substituition Principle (Princípio da Sibustituição de Liskov)
 D => DIP - Dependency Inversion Principle (Princípio da Inversão de dependencia)
+
+## articles
+- https://medium.com/the-node-js-collection/clean-node-1df635d176f7
