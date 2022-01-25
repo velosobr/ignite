@@ -12,6 +12,7 @@ A System that intends to control rent cars
 - S => SRP - Single Responsability Principle (Princípio da Responsabilidade Única)
 - O => OCP - Open-CLosed Principle (Princípio aberto/fechado)
 - L => LSP - Liskov Substituition Principle (Princípio da Sibustituição de Liskov)
+- I => ISP - Interface Segregation Principle (Princípio da segregação de interface) 
 - D => DIP - Dependency Inversion Principle (Princípio da Inversão de dependencia)
 
 ## articles
