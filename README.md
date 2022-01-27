@@ -1,5 +1,6 @@
 # Ignite - Never stop learning!
-A training repo to keep my Node and Flutter Studies
+A training repo to store my studies and register some stuffs.
+Node and Flutter Studies
 # Node
 
 
@@ -25,4 +26,24 @@ A System that intends to control rent cars
 - Para construir o futuro, é preciso ter foco e dedicação!
   - Foco. 
   - Dedicação.
-  - 
+- Para ser programador, separar 70% do tempo de estudos em assuntos técnicos - 20% para relacionamentos - 10% para marca pessoal.
+- Focar em desenvolvimento WEB
+  - Fundamentos da WEB
+  - backend x frontend
+  - prática prática
+  - html, css, JS só o BÁSICO.
+  - Front = REACTJS
+  - backend, um pouco pelo menos.
+  - Node para o backend.
+    - rest
+    - jwt
+    - ORM
+      - prisma
+    - tests
+    - consumir APIs
+  
+  - Clean Code é básico
+  - Git é mais básico ainda!
+  - typescript.
+  
+
