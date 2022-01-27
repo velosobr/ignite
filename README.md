@@ -1,4 +1,4 @@
-# ignite
+# Ignite - Never stop learning!
 A training repo to keep my Node and Flutter Studies
 # Node
 
