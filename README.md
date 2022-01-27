@@ -22,3 +22,7 @@ A System that intends to control rent cars
 
 ## Launch2022 
 ### O [guia](https://www.youtube.com/watch?v=sBhsXsISeRE) definitivo para conquistar seus objetivos como DEV em 2022 | Rocketseat
+- Para construir o futuro, é preciso ter foco e dedicação!
+  - Foco. 
+  - Dedicação.
+  - 
