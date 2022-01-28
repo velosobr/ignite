@@ -55,5 +55,5 @@ A System that intends to control rent cars
 
 
   #### Marca pessoal
-  - É importante para
+  - É importante para mostrar para o mundo quais são seus objetivos.
 
