@@ -23,10 +23,13 @@ A System that intends to control rent cars
 
 ## Launch2022 
 ### O [guia](https://www.youtube.com/watch?v=sBhsXsISeRE) definitivo para conquistar seus objetivos como DEV em 2022 | Rocketseat
+
 - Para construir o futuro, é preciso ter foco e dedicação!
   - Foco. 
   - Dedicação.
 - Para ser programador, separar 70% do tempo de estudos em assuntos técnicos - 20% para relacionamentos - 10% para marca pessoal.
+
+#### Técnica
 - Focar em desenvolvimento WEB
   - Fundamentos da WEB
   - backend x frontend
@@ -46,4 +49,11 @@ A System that intends to control rent cars
   - Git é mais básico ainda!
   - typescript.
   
+  #### Relacionamento
+  - Networking, fazer amizade com devs.
+  - Não queima reputação na web até conseguir algo consistente.
+
+
+  #### Marca pessoal
+  - É importante para
 
