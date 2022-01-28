@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 
 class CreateSecificationController {
-  constructor();
+  constructor(private createSpecificationUseCase: CreateSpecificationUseCase) {}
 
   handle(request: Request, response: Response): Response {}
 }

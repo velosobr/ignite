@@ -7,9 +7,24 @@ import {
 class SpecificationRepository implements ISpecificationRepository {
   private specifications: Specification[];
 
+  // eslint-disable-next-line no-use-before-define
+  private static INSTANCE: SpecificationRepository;
+
   constructor() {
     this.specifications = [];
   }
+
+  list(): Specification[] {
+    return this.specifications;
+  }
+
+  public static getInstance(): SpecificationRepository {
+    if (!SpecificationRepository.INSTANCE) {
+      SpecificationRepository.INSTANCE = new SpecificationRepository();
+    }
+    return SpecificationRepository.INSTANCE;
+  }
+
   findByName(name: string): Specification {
     const spec = this.specifications.find((spec) => spec.name === name);
     return spec;
@@ -25,4 +40,5 @@ class SpecificationRepository implements ISpecificationRepository {
     this.specifications.push(spec);
   }
 }
+
 export { SpecificationRepository };
