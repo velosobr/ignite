@@ -3,7 +3,7 @@ A training repo to store my studies and register some stuffs.
 Node and Flutter Studies
 # Node
 
-Roadmap [Node](https://github.com/aliyr/Nodejs-Developer-Roadmap/blob/master/ReadMe-PT.md) 
+[Roteiro](https://github.com/aliyr/Nodejs-Developer-Roadmap/blob/master/ReadMe-PT.md) do Desenvolvedor Node.js
 
 ## First Project - Rentalx
 
