@@ -4,7 +4,7 @@ Node and Flutter Studies
 # Node
 
 [Roteiro](https://github.com/aliyr/Nodejs-Developer-Roadmap/blob/master/ReadMe-PT.md) do Desenvolvedor Node.js
-
+https://javascript.plainenglish.io/node-js-developer-roadmap-for-2021-2ae9c057bff4
 ## First Project - Rentalx
 
 A System that intends to control rent cars
