@@ -9,6 +9,8 @@ https://javascript.plainenglish.io/node-js-developer-roadmap-for-2021-2ae9c057bf
 
 A System that intends to control rent cars
 
+[<b>Domain driven design</b>](https://martinfowler.com/bliki/DomainDrivenDesign.html#:~:text=Domain%2DDriven%20Design%20is%20an,through%20a%20catalog%20of%20patterns.) 
+
 <b>SOLID</b>
 - S => SRP - Single Responsability Principle (Princípio da Responsabilidade Única)
 - O => OCP - Open-CLosed Principle (Princípio aberto/fechado)
