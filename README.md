@@ -15,7 +15,9 @@ A System that intends to control rent cars
 - L => LSP - Liskov Substituition Principle (Princípio da Sibustituição de Liskov)
 - I => ISP - Interface Segregation Principle (Princípio da segregação de interface) 
 - D => DIP - Dependency Inversion Principle (Princípio da Inversão de dependencia)
-Clean code and solid - https://youtu.be/XV9B4LX_re8
+Clean code and solid 
+- https://youtu.be/XV9B4LX_re8
+- https://youtu.be/J2ugvRObGT4 
 ## articles
 - https://medium.com/the-node-js-collection/clean-node-1df635d176f7
 - SOLID no Node.js | https://medium.com/@gabrielorlando_12302/solid-no-node-js-54010ce7d21c
