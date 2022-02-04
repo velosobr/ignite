@@ -1,0 +1,19 @@
+{
+  "name": "prismaio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "velosobr/ignite/node/prismaio"
+  },
+  "dependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  },
+  "author": "velosobr",
+  "license": "ISC"
+}
