@@ -24,6 +24,8 @@ Clean code and solid
 - https://medium.com/the-node-js-collection/clean-node-1df635d176f7
 - SOLID no Node.js | https://medium.com/@gabrielorlando_12302/solid-no-node-js-54010ce7d21c
 
+RLM
+- https://www.dailycodingproblem.com/
 
 ## Launch2022 
 ### O [guia](https://www.youtube.com/watch?v=sBhsXsISeRE) definitivo para conquistar seus objetivos como DEV em 2022 | Rocketseat
