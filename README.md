@@ -23,8 +23,13 @@ Clean code and solid
 ## articles
 - https://medium.com/the-node-js-collection/clean-node-1df635d176f7
 - SOLID no Node.js | https://medium.com/@gabrielorlando_12302/solid-no-node-js-54010ce7d21c
+- Tests
+  - https://martinfowler.com/articles/mocksArentStubs.html
+  - https://www.testim.io/blog/sinon-js-tutorial/   
+  - https://medium.com/rd-shipit/test-doubles-mocks-stubs-fakes-spies-e-dummies-a5cdafcd0daf
 
-RLM
+
+## RLM
 - https://www.dailycodingproblem.com/
 
 ## Launch2022 
