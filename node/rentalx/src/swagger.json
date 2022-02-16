@@ -7,5 +7,42 @@
       "contact": {
          "email": "linoc.veloso@gmail.com"
       }
+   },
+   "paths": {
+      "/categories": {
+         "post": {
+            "tags": ["Categories"],
+            "summary": "Create a category",
+            "requestBody": {
+               "content": {
+                  "application/json": {
+                     "schema": {
+                        "type": "object",
+                        "properties": {
+                           "name": {
+                              "type": "string"
+                           },
+                           "description": {
+                              "type": "string"
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+
+         },
+         "get": {
+            "tags": ["Categories"]
+
+
+         }
+      },
+      "/specifications":{
+         "post": {
+            "tags": ["Specifications"]
+
+         }
+      }
    }
 }
