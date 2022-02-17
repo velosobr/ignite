@@ -19,6 +19,7 @@ class CreateUserUseCase {
       name,
       email,
     });
+
     return user;
   }
 }
