@@ -8,7 +8,11 @@ class ListAllUsersController {
   handle(request: Request, response: Response): Response {
     const { user_id } = request.body;
 
-    this.listAllUsersUseCase.execute(user_id);
+    const userList = this.listAllUsersUseCase.execute(user_id);
+    if (!userList)
+      return response.status(400).json({
+        error: "The user already exists",
+      });
     return response.status(200).send();
   }
 }
