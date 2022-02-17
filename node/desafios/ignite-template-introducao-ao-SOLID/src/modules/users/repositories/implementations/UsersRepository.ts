@@ -45,12 +45,7 @@ class UsersRepository implements IUsersRepository {
   }
 
   turnAdmin(receivedUser: User): User {
-    const user = this.findById(receivedUser.id);
-    if (user) {
-      user.admin = true;
-      user.updated_at = new Date();
-    }
-    return user;
+    return Object.assign(receivedUser, { admin: true, updated_at: new Date() });
   }
 
   list(): User[] {
