@@ -27,7 +27,8 @@ Clean code and solid
   - https://martinfowler.com/articles/mocksArentStubs.html
   - https://www.testim.io/blog/sinon-js-tutorial/   
   - https://medium.com/rd-shipit/test-doubles-mocks-stubs-fakes-spies-e-dummies-a5cdafcd0daf
-
+  - How to compare objects in Javascript - https://blog.bitsrc.io/how-to-compare-objects-in-javascript-f4eafef807fc
+ 
 
 ## RLM
 - https://www.dailycodingproblem.com/
