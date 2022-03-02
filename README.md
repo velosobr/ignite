@@ -21,7 +21,10 @@ Clean code and solid
 - https://youtu.be/XV9B4LX_re8
 - https://youtu.be/J2ugvRObGT4 
 ## articles
-- https://medium.com/the-node-js-collection/clean-node-1df635d176f7
+- Clean code - https://medium.com/the-node-js-collection/clean-node-1df635d176f7
+- Clean Arch 
+  - http://www2.decom.ufop.br/terralab/uma-breve-introducao-a-arquitetura-limpa-com-node-js/
+
 - SOLID no Node.js | https://medium.com/@gabrielorlando_12302/solid-no-node-js-54010ce7d21c
 - Tests
   - https://martinfowler.com/articles/mocksArentStubs.html
