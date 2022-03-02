@@ -27,6 +27,7 @@ Clean code and solid
   - https://mannhowie.com/clean-architecture-node
   - https://itnext.io/clean-architecture-making-node-js-api-shine-38134b8f9b5c
   - https://roystack.home.blog/2019/10/22/node-clean-architecture-deep-dive/
+  - https://dev.to/thiagosilva95/clean-architecture-o-que-e-vantagens-e-como-utilizar-em-aplicacoes-na-pratica-4ej8
 
 - SOLID no Node.js | https://medium.com/@gabrielorlando_12302/solid-no-node-js-54010ce7d21c
 - Tests
