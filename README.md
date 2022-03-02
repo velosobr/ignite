@@ -24,6 +24,9 @@ Clean code and solid
 - Clean code - https://medium.com/the-node-js-collection/clean-node-1df635d176f7
 - Clean Arch 
   - http://www2.decom.ufop.br/terralab/uma-breve-introducao-a-arquitetura-limpa-com-node-js/
+  - https://mannhowie.com/clean-architecture-node
+  - https://itnext.io/clean-architecture-making-node-js-api-shine-38134b8f9b5c
+  - https://roystack.home.blog/2019/10/22/node-clean-architecture-deep-dive/
 
 - SOLID no Node.js | https://medium.com/@gabrielorlando_12302/solid-no-node-js-54010ce7d21c
 - Tests
