@@ -5,9 +5,9 @@ Node and Flutter Studies
 
 [Roteiro](https://github.com/aliyr/Nodejs-Developer-Roadmap/blob/master/ReadMe-PT.md) do Desenvolvedor Node.js
 https://javascript.plainenglish.io/node-js-developer-roadmap-for-2021-2ae9c057bff4
-## First Project - Rentalx
+## portifólio
 
-A System that intends to control rent cars
+- Rentalx - A System that intends to control rent cars
 
 [<b>Domain driven design</b>](https://martinfowler.com/bliki/DomainDrivenDesign.html#:~:text=Domain%2DDriven%20Design%20is%20an,through%20a%20catalog%20of%20patterns.) 
 
