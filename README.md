@@ -42,37 +42,4 @@ Clean code and solid
 
 ## Launch2022 
 ### O [guia](https://www.youtube.com/watch?v=sBhsXsISeRE) definitivo para conquistar seus objetivos como DEV em 2022 | Rocketseat
-
-- Para construir o futuro, é preciso ter foco e dedicação!
-  - Foco. 
-  - Dedicação.
-- Para ser programador, separar 70% do tempo de estudos em assuntos técnicos - 20% para relacionamentos - 10% para marca pessoal.
-
-#### Técnica
-- Focar em desenvolvimento WEB
-  - Fundamentos da WEB
-  - backend x frontend
-  - prática prática
-  - html, css, JS só o BÁSICO.
-  - Front = REACTJS
-  - backend, um pouco pelo menos.
-  - Node para o backend.
-    - rest
-    - jwt
-    - ORM
-      - prisma
-    - tests
-    - consumir APIs
-  
-  - Clean Code é básico
-  - Git é mais básico ainda!
-  - typescript.
-  
-  #### Relacionamento
-  - Networking, fazer amizade com devs.
-  - Não queima reputação na web até conseguir algo consistente.
-
-
-  #### Marca pessoal
-  - É importante para mostrar para o mundo quais são seus objetivos.
-
+[Notion notes](https://velosobr.notion.site/Programming-study-guide-b21fc9e19e31426fa48322966a5f7e10)
