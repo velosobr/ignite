@@ -40,6 +40,10 @@ Clean code and solid
 ## RLM
 - https://www.dailycodingproblem.com/
 
+## PWA
+- https://blog.rocketseat.com.br/pwa-o-que-e-quando-utilizar/
+- https://www.youtube.com/watch?v=AqJKAJ0TKms
+
 ## Launch2022 
 ### O [guia](https://www.youtube.com/watch?v=sBhsXsISeRE) definitivo para conquistar seus objetivos como DEV em 2022 | Rocketseat
 [Notion notes](https://velosobr.notion.site/Programming-study-guide-b21fc9e19e31426fa48322966a5f7e10)
