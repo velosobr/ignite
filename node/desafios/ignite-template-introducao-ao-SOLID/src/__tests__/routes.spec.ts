@@ -114,9 +114,9 @@ describe("[GET] /users", () => {
     });
 
     const response = await request(app).get("/users").set("user_id", user1.id);
-
+    const value = response.body;
     expect(
-      response.body.map((res) => ({
+      value.map((res) => ({
         ...res,
         created_at: new Date(res.created_at),
         updated_at: new Date(res.updated_at),
