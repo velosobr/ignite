@@ -13,7 +13,7 @@ https://javascript.plainenglish.io/node-js-developer-roadmap-for-2021-2ae9c057bf
 
 <b>SOLID</b>
 
-- S - SRP - Single Responsability Principle (Princípio da Responsabilidade Única)
+- S => SRP - Single Responsability Principle (Princípio da Responsabilidade Única)
 - O => OCP - Open-CLosed Principle (Princípio aberto/fechado)
 - L => LSP - Liskov Substituition Principle (Princípio da Sibustituição de Liskov)
 - I => ISP - Interface Segregation Principle (Princípio da segregação de interface) 
@@ -41,8 +41,9 @@ Clean code and solid
   - https://towardsdatascience.com/docker-compose-for-absolute-beginners-how-does-it-work-and-how-to-use-it-examples-733ca24c5e6c
   - https://towardsdatascience.com/docker-for-absolute-beginners-what-is-docker-and-how-to-use-it-examples-3d3b11efd830
   - https://medium.com/@devops_83824/introduction-to-docker-compose-934238b14c13
+  - https://towardsdatascience.com/getting-started-with-postgres-in-docker-616127e2e46d
 
-I0p## RLM
+## RLM
 - https://www.dailycodingproblem.com/
 
 ## PWA
