@@ -39,8 +39,10 @@ Clean code and solid
  
 - Docker & Compose
   - https://towardsdatascience.com/docker-compose-for-absolute-beginners-how-does-it-work-and-how-to-use-it-examples-733ca24c5e6c
+  - https://towardsdatascience.com/docker-for-absolute-beginners-what-is-docker-and-how-to-use-it-examples-3d3b11efd830
   - https://medium.com/@devops_83824/introduction-to-docker-compose-934238b14c13
-## RLM
+
+I0p## RLM
 - https://www.dailycodingproblem.com/
 
 ## PWA
