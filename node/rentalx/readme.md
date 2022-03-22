@@ -14,7 +14,8 @@
 ❯ docker-compose stop // stop the container
 ❯ docker-compose down // remove all things created
 
-
+## get IP
+❯ docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' rentalx-container
 
 
 
