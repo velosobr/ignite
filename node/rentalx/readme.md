@@ -20,3 +20,6 @@
 
 ### Solving the 'network_mode is incompatible with port_bindings' problem
 - https://www.notion.so/Refatora-o-Docker-com-TypeORM-4500fc0d075349ac9b97d670e734d41b
+
+## TypeORM Migrations commands
+❯ yarn typeorm migration:create 
