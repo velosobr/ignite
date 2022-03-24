@@ -23,3 +23,4 @@
 
 ## TypeORM Migrations commands
 ❯ yarn typeorm migration:create 
+❯ yarn typeorm migration:run   
