@@ -32,6 +32,7 @@ Clean code and solid
 
 - Design Patterns
   - https://www.syncfusion.com/blogs/post/using-design-patterns-in-javascript-the-ultimate-guide.aspx/amp
+  - https://medium.com/@SilentHackz/4-javascript-design-patterns-you-should-know-9b8e6c3abdaf 
 
 - SOLID no Node.js | https://medium.com/@gabrielorlando_12302/solid-no-node-js-54010ce7d21c
 - Tests
