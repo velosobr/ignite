@@ -30,6 +30,9 @@ Clean code and solid
   - https://roystack.home.blog/2019/10/22/node-clean-architecture-deep-dive/
   - https://dev.to/thiagosilva95/clean-architecture-o-que-e-vantagens-e-como-utilizar-em-aplicacoes-na-pratica-4ej8
 
+- Design Patterns
+  - https://www.syncfusion.com/blogs/post/using-design-patterns-in-javascript-the-ultimate-guide.aspx/amp
+
 - SOLID no Node.js | https://medium.com/@gabrielorlando_12302/solid-no-node-js-54010ce7d21c
 - Tests
   - https://martinfowler.com/articles/mocksArentStubs.html
