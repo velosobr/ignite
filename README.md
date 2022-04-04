@@ -41,6 +41,9 @@ Clean code and solid
   - https://medium.com/rd-shipit/test-doubles-mocks-stubs-fakes-spies-e-dummies-a5cdafcd0daf
   - How to compare objects in Javascript - https://blog.bitsrc.io/how-to-compare-objects-in-javascript-f4eafef807fc
  
+- DB & typeorm 
+  - https://medium.com/swlh/typeorm-getting-started-2ff9d0a99015
+
 - Docker & Compose
   - https://towardsdatascience.com/docker-compose-for-absolute-beginners-how-does-it-work-and-how-to-use-it-examples-733ca24c5e6c
   - https://towardsdatascience.com/docker-for-absolute-beginners-what-is-docker-and-how-to-use-it-examples-3d3b11efd830
